@@ -87,7 +87,9 @@ const App = () => {
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ message }),
+        body: JSON.stringify({ message,
+          type: 'phonebot'
+         }),
       });
 
       if (!response.ok) {
