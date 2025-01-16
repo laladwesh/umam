@@ -104,7 +104,6 @@ const CustPage = () => {
                 body: JSON.stringify({
                     message,
                     type: "customerbot",
-                    sessionId: sessionId // Include the session ID in the request
                 }),
             });
 

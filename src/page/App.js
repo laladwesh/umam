@@ -104,7 +104,6 @@ const AppPage = () => {
                 body: JSON.stringify({
                     message,
                     type: "phonebot",
-                    sessionId: sessionId
                 }),
             });
 
