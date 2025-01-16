@@ -141,11 +141,11 @@ const CustPage = () => {
                                 ? "Processing..."
                                 : "Click the mic to start"}
                     </p>
-                    {sessionId && (
+                    {/* {sessionId && (
                         <p className="text-sm text-gray-500 mt-2">
                             Session ID: {sessionId}
                         </p>
-                    )}
+                    )} */}
                 </div>
 
                 {transcript && (
